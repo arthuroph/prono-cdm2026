@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "round": "Matchday 1",
+    "date": "2026-06-11",
+    "team1": "Mexico",
+    "team2": "South Africa",
+    "group": "A",
+    "score1": 2,
+    "score2": 0
+  },
+  {
+    "id": 2,
+    "round": "Matchday 1",
+    "date": "2026-06-11",
+    "team1": "South Korea",
+    "team2": "Czech Republic",
+    "group": "A",
+    "score1": 2,
+    "score2": 1
+  },
+  {
+    "id": 3,
+    "round": "Matchday 8",
+    "date": "2026-06-18",
+    "team1": "Czech Republic",
+    "team2": "South Africa",
+    "group": "A",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 4,
+    "round": "Matchday 8",
+    "date": "2026-06-18",
+    "team1": "Mexico",
+    "team2": "South Korea",
+    "group": "A",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 5,
+    "round": "Matchday 14",
+    "date": "2026-06-24",
+    "team1": "Czech Republic",
+    "team2": "Mexico",
+    "group": "A",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 6,
+    "round": "Matchday 14",
+    "date": "2026-06-24",
+    "team1": "South Africa",
+    "team2": "South Korea",
+    "group": "A",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 7,
+    "round": "Matchday 2",
+    "date": "2026-06-12",
+    "team1": "Canada",
+    "team2": "Bosnia & Herzegovina",
+    "group": "B",
+    "score1": 1,
+    "score2": 1
+  },
+  {
+    "id": 8,
+    "round": "Matchday 3",
+    "date": "2026-06-13",
+    "team1": "Qatar",
+    "team2": "Switzerland",
+    "group": "B",
+    "score1": 1,
+    "score2": 1
+  },
+  {
+    "id": 9,
+    "round": "Matchday 8",
+    "date": "2026-06-18",
+    "team1": "Switzerland",
+    "team2": "Bosnia & Herzegovina",
+    "group": "B",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 10,
+    "round": "Matchday 8",
+    "date": "2026-06-18",
+    "team1": "Canada",
+    "team2": "Qatar",
+    "group": "B",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 11,
+    "round": "Matchday 14",
+    "date": "2026-06-24",
+    "team1": "Switzerland",
+    "team2": "Canada",
+    "group": "B",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 12,
+    "round": "Matchday 14",
+    "date": "2026-06-24",
+    "team1": "Bosnia & Herzegovina",
+    "team2": "Qatar",
+    "group": "B",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 13,
+    "round": "Matchday 3",
+    "date": "2026-06-13",
+    "team1": "Brazil",
+    "team2": "Morocco",
+    "group": "C",
+    "score1": 1,
+    "score2": 1
+  },
+  {
+    "id": 14,
+    "round": "Matchday 3",
+    "date": "2026-06-13",
+    "team1": "Haiti",
+    "team2": "Scotland",
+    "group": "C",
+    "score1": 0,
+    "score2": 1
+  },
+  {
+    "id": 15,
+    "round": "Matchday 9",
+    "date": "2026-06-19",
+    "team1": "Scotland",
+    "team2": "Morocco",
+    "group": "C",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 16,
+    "round": "Matchday 9",
+    "date": "2026-06-19",
+    "team1": "Brazil",
+    "team2": "Haiti",
+    "group": "C",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 17,
+    "round": "Matchday 14",
+    "date": "2026-06-24",
+    "team1": "Scotland",
+    "team2": "Brazil",
+    "group": "C",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 18,
+    "round": "Matchday 14",
+    "date": "2026-06-24",
+    "team1": "Morocco",
+    "team2": "Haiti",
+    "group": "C",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 19,
+    "round": "Matchday 2",
+    "date": "2026-06-12",
+    "team1": "USA",
+    "team2": "Paraguay",
+    "group": "D",
+    "score1": 4,
+    "score2": 1
+  },
+  {
+    "id": 20,
+    "round": "Matchday 3",
+    "date": "2026-06-13",
+    "team1": "Australia",
+    "team2": "Turkey",
+    "group": "D",
+    "score1": 2,
+    "score2": 0
+  },
+  {
+    "id": 21,
+    "round": "Matchday 9",
+    "date": "2026-06-19",
+    "team1": "USA",
+    "team2": "Australia",
+    "group": "D",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 22,
+    "round": "Matchday 9",
+    "date": "2026-06-19",
+    "team1": "Turkey",
+    "team2": "Paraguay",
+    "group": "D",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 23,
+    "round": "Matchday 15",
+    "date": "2026-06-25",
+    "team1": "Turkey",
+    "team2": "USA",
+    "group": "D",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 24,
+    "round": "Matchday 15",
+    "date": "2026-06-25",
+    "team1": "Paraguay",
+    "team2": "Australia",
+    "group": "D",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 25,
+    "round": "Matchday 4",
+    "date": "2026-06-14",
+    "team1": "Germany",
+    "team2": "Curaçao",
+    "group": "E",
+    "score1": 7,
+    "score2": 1
+  },
+  {
+    "id": 26,
+    "round": "Matchday 4",
+    "date": "2026-06-14",
+    "team1": "Ivory Coast",
+    "team2": "Ecuador",
+    "group": "E",
+    "score1": 1,
+    "score2": 0
+  },
+  {
+    "id": 27,
+    "round": "Matchday 10",
+    "date": "2026-06-20",
+    "team1": "Germany",
+    "team2": "Ivory Coast",
+    "group": "E",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 28,
+    "round": "Matchday 10",
+    "date": "2026-06-20",
+    "team1": "Ecuador",
+    "team2": "Curaçao",
+    "group": "E",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 29,
+    "round": "Matchday 15",
+    "date": "2026-06-25",
+    "team1": "Curaçao",
+    "team2": "Ivory Coast",
+    "group": "E",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 30,
+    "round": "Matchday 15",
+    "date": "2026-06-25",
+    "team1": "Ecuador",
+    "team2": "Germany",
+    "group": "E",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 31,
+    "round": "Matchday 4",
+    "date": "2026-06-14",
+    "team1": "Netherlands",
+    "team2": "Japan",
+    "group": "F",
+    "score1": 2,
+    "score2": 2
+  },
+  {
+    "id": 32,
+    "round": "Matchday 4",
+    "date": "2026-06-14",
+    "team1": "Sweden",
+    "team2": "Tunisia",
+    "group": "F",
+    "score1": 5,
+    "score2": 1
+  },
+  {
+    "id": 33,
+    "round": "Matchday 10",
+    "date": "2026-06-20",
+    "team1": "Netherlands",
+    "team2": "Sweden",
+    "group": "F",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 34,
+    "round": "Matchday 10",
+    "date": "2026-06-20",
+    "team1": "Tunisia",
+    "team2": "Japan",
+    "group": "F",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 35,
+    "round": "Matchday 15",
+    "date": "2026-06-25",
+    "team1": "Japan",
+    "team2": "Sweden",
+    "group": "F",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 36,
+    "round": "Matchday 15",
+    "date": "2026-06-25",
+    "team1": "Tunisia",
+    "team2": "Netherlands",
+    "group": "F",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 37,
+    "round": "Matchday 5",
+    "date": "2026-06-15",
+    "team1": "Belgium",
+    "team2": "Egypt",
+    "group": "G",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 38,
+    "round": "Matchday 5",
+    "date": "2026-06-15",
+    "team1": "Iran",
+    "team2": "New Zealand",
+    "group": "G",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 39,
+    "round": "Matchday 11",
+    "date": "2026-06-21",
+    "team1": "Belgium",
+    "team2": "Iran",
+    "group": "G",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 40,
+    "round": "Matchday 11",
+    "date": "2026-06-21",
+    "team1": "New Zealand",
+    "team2": "Egypt",
+    "group": "G",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 41,
+    "round": "Matchday 16",
+    "date": "2026-06-26",
+    "team1": "Egypt",
+    "team2": "Iran",
+    "group": "G",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 42,
+    "round": "Matchday 16",
+    "date": "2026-06-26",
+    "team1": "New Zealand",
+    "team2": "Belgium",
+    "group": "G",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 43,
+    "round": "Matchday 5",
+    "date": "2026-06-15",
+    "team1": "Spain",
+    "team2": "Cape Verde",
+    "group": "H",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 44,
+    "round": "Matchday 5",
+    "date": "2026-06-15",
+    "team1": "Saudi Arabia",
+    "team2": "Uruguay",
+    "group": "H",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 45,
+    "round": "Matchday 11",
+    "date": "2026-06-21",
+    "team1": "Spain",
+    "team2": "Saudi Arabia",
+    "group": "H",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 46,
+    "round": "Matchday 11",
+    "date": "2026-06-21",
+    "team1": "Uruguay",
+    "team2": "Cape Verde",
+    "group": "H",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 47,
+    "round": "Matchday 16",
+    "date": "2026-06-26",
+    "team1": "Cape Verde",
+    "team2": "Saudi Arabia",
+    "group": "H",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 48,
+    "round": "Matchday 16",
+    "date": "2026-06-26",
+    "team1": "Uruguay",
+    "team2": "Spain",
+    "group": "H",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 49,
+    "round": "Matchday 6",
+    "date": "2026-06-16",
+    "team1": "France",
+    "team2": "Senegal",
+    "group": "I",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 50,
+    "round": "Matchday 6",
+    "date": "2026-06-16",
+    "team1": "Iraq",
+    "team2": "Norway",
+    "group": "I",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 51,
+    "round": "Matchday 12",
+    "date": "2026-06-22",
+    "team1": "France",
+    "team2": "Iraq",
+    "group": "I",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 52,
+    "round": "Matchday 12",
+    "date": "2026-06-22",
+    "team1": "Norway",
+    "team2": "Senegal",
+    "group": "I",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 53,
+    "round": "Matchday 16",
+    "date": "2026-06-26",
+    "team1": "Norway",
+    "team2": "France",
+    "group": "I",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 54,
+    "round": "Matchday 16",
+    "date": "2026-06-26",
+    "team1": "Senegal",
+    "team2": "Iraq",
+    "group": "I",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 55,
+    "round": "Matchday 6",
+    "date": "2026-06-16",
+    "team1": "Argentina",
+    "team2": "Algeria",
+    "group": "J",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 56,
+    "round": "Matchday 6",
+    "date": "2026-06-16",
+    "team1": "Austria",
+    "team2": "Jordan",
+    "group": "J",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 57,
+    "round": "Matchday 12",
+    "date": "2026-06-22",
+    "team1": "Argentina",
+    "team2": "Austria",
+    "group": "J",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 58,
+    "round": "Matchday 12",
+    "date": "2026-06-22",
+    "team1": "Jordan",
+    "team2": "Algeria",
+    "group": "J",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 59,
+    "round": "Matchday 17",
+    "date": "2026-06-27",
+    "team1": "Algeria",
+    "team2": "Austria",
+    "group": "J",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 60,
+    "round": "Matchday 17",
+    "date": "2026-06-27",
+    "team1": "Jordan",
+    "team2": "Argentina",
+    "group": "J",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 61,
+    "round": "Matchday 7",
+    "date": "2026-06-17",
+    "team1": "Portugal",
+    "team2": "DR Congo",
+    "group": "K",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 62,
+    "round": "Matchday 7",
+    "date": "2026-06-17",
+    "team1": "Uzbekistan",
+    "team2": "Colombia",
+    "group": "K",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 63,
+    "round": "Matchday 13",
+    "date": "2026-06-23",
+    "team1": "Portugal",
+    "team2": "Uzbekistan",
+    "group": "K",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 64,
+    "round": "Matchday 13",
+    "date": "2026-06-23",
+    "team1": "Colombia",
+    "team2": "DR Congo",
+    "group": "K",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 65,
+    "round": "Matchday 17",
+    "date": "2026-06-27",
+    "team1": "Colombia",
+    "team2": "Portugal",
+    "group": "K",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 66,
+    "round": "Matchday 17",
+    "date": "2026-06-27",
+    "team1": "DR Congo",
+    "team2": "Uzbekistan",
+    "group": "K",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 67,
+    "round": "Matchday 7",
+    "date": "2026-06-17",
+    "team1": "England",
+    "team2": "Croatia",
+    "group": "L",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 68,
+    "round": "Matchday 7",
+    "date": "2026-06-17",
+    "team1": "Ghana",
+    "team2": "Panama",
+    "group": "L",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 69,
+    "round": "Matchday 13",
+    "date": "2026-06-23",
+    "team1": "England",
+    "team2": "Ghana",
+    "group": "L",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 70,
+    "round": "Matchday 13",
+    "date": "2026-06-23",
+    "team1": "Panama",
+    "team2": "Croatia",
+    "group": "L",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 71,
+    "round": "Matchday 17",
+    "date": "2026-06-27",
+    "team1": "Panama",
+    "team2": "England",
+    "group": "L",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 72,
+    "round": "Matchday 17",
+    "date": "2026-06-27",
+    "team1": "Croatia",
+    "team2": "Ghana",
+    "group": "L",
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 73,
+    "round": "Round of 32",
+    "date": "2026-06-28",
+    "team1": "2A",
+    "team2": "2B",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 74,
+    "round": "Round of 32",
+    "date": "2026-06-29",
+    "team1": "1E",
+    "team2": "3A/B/C/D/F",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 75,
+    "round": "Round of 32",
+    "date": "2026-06-29",
+    "team1": "1F",
+    "team2": "2C",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 76,
+    "round": "Round of 32",
+    "date": "2026-06-29",
+    "team1": "1C",
+    "team2": "2F",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 77,
+    "round": "Round of 32",
+    "date": "2026-06-30",
+    "team1": "1I",
+    "team2": "3C/D/F/G/H",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 78,
+    "round": "Round of 32",
+    "date": "2026-06-30",
+    "team1": "2E",
+    "team2": "2I",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 79,
+    "round": "Round of 32",
+    "date": "2026-06-30",
+    "team1": "1A",
+    "team2": "3C/E/F/H/I",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 80,
+    "round": "Round of 32",
+    "date": "2026-07-01",
+    "team1": "1L",
+    "team2": "3E/H/I/J/K",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 81,
+    "round": "Round of 32",
+    "date": "2026-07-01",
+    "team1": "1D",
+    "team2": "3B/E/F/I/J",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 82,
+    "round": "Round of 32",
+    "date": "2026-07-01",
+    "team1": "1G",
+    "team2": "3A/E/H/I/J",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 83,
+    "round": "Round of 32",
+    "date": "2026-07-02",
+    "team1": "2K",
+    "team2": "2L",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 84,
+    "round": "Round of 32",
+    "date": "2026-07-02",
+    "team1": "1H",
+    "team2": "2J",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 85,
+    "round": "Round of 32",
+    "date": "2026-07-02",
+    "team1": "1B",
+    "team2": "3E/F/G/I/J",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 86,
+    "round": "Round of 32",
+    "date": "2026-07-03",
+    "team1": "1J",
+    "team2": "2H",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 87,
+    "round": "Round of 32",
+    "date": "2026-07-03",
+    "team1": "1K",
+    "team2": "3D/E/I/J/L",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 88,
+    "round": "Round of 32",
+    "date": "2026-07-03",
+    "team1": "2D",
+    "team2": "2G",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 89,
+    "round": "Round of 16",
+    "date": "2026-07-04",
+    "team1": "W74",
+    "team2": "W77",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 90,
+    "round": "Round of 16",
+    "date": "2026-07-04",
+    "team1": "W73",
+    "team2": "W75",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 91,
+    "round": "Round of 16",
+    "date": "2026-07-05",
+    "team1": "W76",
+    "team2": "W78",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 92,
+    "round": "Round of 16",
+    "date": "2026-07-05",
+    "team1": "W79",
+    "team2": "W80",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 93,
+    "round": "Round of 16",
+    "date": "2026-07-06",
+    "team1": "W83",
+    "team2": "W84",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 94,
+    "round": "Round of 16",
+    "date": "2026-07-06",
+    "team1": "W81",
+    "team2": "W82",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 95,
+    "round": "Round of 16",
+    "date": "2026-07-07",
+    "team1": "W86",
+    "team2": "W88",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 96,
+    "round": "Round of 16",
+    "date": "2026-07-07",
+    "team1": "W85",
+    "team2": "W87",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 97,
+    "round": "Quarter-final",
+    "date": "2026-07-09",
+    "team1": "W89",
+    "team2": "W90",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 98,
+    "round": "Quarter-final",
+    "date": "2026-07-10",
+    "team1": "W93",
+    "team2": "W94",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 99,
+    "round": "Quarter-final",
+    "date": "2026-07-11",
+    "team1": "W91",
+    "team2": "W92",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 100,
+    "round": "Quarter-final",
+    "date": "2026-07-11",
+    "team1": "W95",
+    "team2": "W96",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 101,
+    "round": "Semi-final",
+    "date": "2026-07-14",
+    "team1": "W97",
+    "team2": "W98",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 102,
+    "round": "Semi-final",
+    "date": "2026-07-15",
+    "team1": "W99",
+    "team2": "W100",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 103,
+    "round": "Match for third place",
+    "date": "2026-07-18",
+    "team1": "L101",
+    "team2": "L102",
+    "group": null,
+    "score1": null,
+    "score2": null
+  },
+  {
+    "id": 104,
+    "round": "Final",
+    "date": "2026-07-19",
+    "team1": "W101",
+    "team2": "W102",
+    "group": null,
+    "score1": null,
+    "score2": null
+  }
+]

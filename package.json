@@ -1,0 +1,16 @@
+{
+  "name": "prono-cdm2026",
+  "version": "1.0.0",
+  "description": "Suivi des pronostics Coupe du Monde 2026 - scores en direct, points par pronostiqueur, classement",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/test_scoring.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

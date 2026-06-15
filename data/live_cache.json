@@ -1,0 +1,837 @@
+{
+  "fetchedAt": 1781535828634,
+  "scores": [
+    {
+      "key": "Mexico|South Africa|2026-06-11",
+      "team1": "Mexico",
+      "team2": "South Africa",
+      "date": "2026-06-11",
+      "score1": 2,
+      "score2": 0
+    },
+    {
+      "key": "South Korea|Czech Republic|2026-06-11",
+      "team1": "South Korea",
+      "team2": "Czech Republic",
+      "date": "2026-06-11",
+      "score1": 2,
+      "score2": 1
+    },
+    {
+      "key": "Czech Republic|South Africa|2026-06-18",
+      "team1": "Czech Republic",
+      "team2": "South Africa",
+      "date": "2026-06-18",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Mexico|South Korea|2026-06-18",
+      "team1": "Mexico",
+      "team2": "South Korea",
+      "date": "2026-06-18",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Czech Republic|Mexico|2026-06-24",
+      "team1": "Czech Republic",
+      "team2": "Mexico",
+      "date": "2026-06-24",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "South Africa|South Korea|2026-06-24",
+      "team1": "South Africa",
+      "team2": "South Korea",
+      "date": "2026-06-24",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Canada|Bosnia & Herzegovina|2026-06-12",
+      "team1": "Canada",
+      "team2": "Bosnia & Herzegovina",
+      "date": "2026-06-12",
+      "score1": 1,
+      "score2": 1
+    },
+    {
+      "key": "Qatar|Switzerland|2026-06-13",
+      "team1": "Qatar",
+      "team2": "Switzerland",
+      "date": "2026-06-13",
+      "score1": 1,
+      "score2": 1
+    },
+    {
+      "key": "Switzerland|Bosnia & Herzegovina|2026-06-18",
+      "team1": "Switzerland",
+      "team2": "Bosnia & Herzegovina",
+      "date": "2026-06-18",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Canada|Qatar|2026-06-18",
+      "team1": "Canada",
+      "team2": "Qatar",
+      "date": "2026-06-18",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Switzerland|Canada|2026-06-24",
+      "team1": "Switzerland",
+      "team2": "Canada",
+      "date": "2026-06-24",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Bosnia & Herzegovina|Qatar|2026-06-24",
+      "team1": "Bosnia & Herzegovina",
+      "team2": "Qatar",
+      "date": "2026-06-24",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Brazil|Morocco|2026-06-13",
+      "team1": "Brazil",
+      "team2": "Morocco",
+      "date": "2026-06-13",
+      "score1": 1,
+      "score2": 1
+    },
+    {
+      "key": "Haiti|Scotland|2026-06-13",
+      "team1": "Haiti",
+      "team2": "Scotland",
+      "date": "2026-06-13",
+      "score1": 0,
+      "score2": 1
+    },
+    {
+      "key": "Scotland|Morocco|2026-06-19",
+      "team1": "Scotland",
+      "team2": "Morocco",
+      "date": "2026-06-19",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Brazil|Haiti|2026-06-19",
+      "team1": "Brazil",
+      "team2": "Haiti",
+      "date": "2026-06-19",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Scotland|Brazil|2026-06-24",
+      "team1": "Scotland",
+      "team2": "Brazil",
+      "date": "2026-06-24",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Morocco|Haiti|2026-06-24",
+      "team1": "Morocco",
+      "team2": "Haiti",
+      "date": "2026-06-24",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "USA|Paraguay|2026-06-12",
+      "team1": "USA",
+      "team2": "Paraguay",
+      "date": "2026-06-12",
+      "score1": 4,
+      "score2": 1
+    },
+    {
+      "key": "Australia|Turkey|2026-06-13",
+      "team1": "Australia",
+      "team2": "Turkey",
+      "date": "2026-06-13",
+      "score1": 2,
+      "score2": 0
+    },
+    {
+      "key": "USA|Australia|2026-06-19",
+      "team1": "USA",
+      "team2": "Australia",
+      "date": "2026-06-19",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Turkey|Paraguay|2026-06-19",
+      "team1": "Turkey",
+      "team2": "Paraguay",
+      "date": "2026-06-19",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Turkey|USA|2026-06-25",
+      "team1": "Turkey",
+      "team2": "USA",
+      "date": "2026-06-25",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Paraguay|Australia|2026-06-25",
+      "team1": "Paraguay",
+      "team2": "Australia",
+      "date": "2026-06-25",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Germany|Curaçao|2026-06-14",
+      "team1": "Germany",
+      "team2": "Curaçao",
+      "date": "2026-06-14",
+      "score1": 7,
+      "score2": 1
+    },
+    {
+      "key": "Ivory Coast|Ecuador|2026-06-14",
+      "team1": "Ivory Coast",
+      "team2": "Ecuador",
+      "date": "2026-06-14",
+      "score1": 1,
+      "score2": 0
+    },
+    {
+      "key": "Germany|Ivory Coast|2026-06-20",
+      "team1": "Germany",
+      "team2": "Ivory Coast",
+      "date": "2026-06-20",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Ecuador|Curaçao|2026-06-20",
+      "team1": "Ecuador",
+      "team2": "Curaçao",
+      "date": "2026-06-20",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Curaçao|Ivory Coast|2026-06-25",
+      "team1": "Curaçao",
+      "team2": "Ivory Coast",
+      "date": "2026-06-25",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Ecuador|Germany|2026-06-25",
+      "team1": "Ecuador",
+      "team2": "Germany",
+      "date": "2026-06-25",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Netherlands|Japan|2026-06-14",
+      "team1": "Netherlands",
+      "team2": "Japan",
+      "date": "2026-06-14",
+      "score1": 2,
+      "score2": 2
+    },
+    {
+      "key": "Sweden|Tunisia|2026-06-14",
+      "team1": "Sweden",
+      "team2": "Tunisia",
+      "date": "2026-06-14",
+      "score1": 5,
+      "score2": 1
+    },
+    {
+      "key": "Netherlands|Sweden|2026-06-20",
+      "team1": "Netherlands",
+      "team2": "Sweden",
+      "date": "2026-06-20",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Tunisia|Japan|2026-06-20",
+      "team1": "Tunisia",
+      "team2": "Japan",
+      "date": "2026-06-20",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Japan|Sweden|2026-06-25",
+      "team1": "Japan",
+      "team2": "Sweden",
+      "date": "2026-06-25",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Tunisia|Netherlands|2026-06-25",
+      "team1": "Tunisia",
+      "team2": "Netherlands",
+      "date": "2026-06-25",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Belgium|Egypt|2026-06-15",
+      "team1": "Belgium",
+      "team2": "Egypt",
+      "date": "2026-06-15",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Iran|New Zealand|2026-06-15",
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "date": "2026-06-15",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Belgium|Iran|2026-06-21",
+      "team1": "Belgium",
+      "team2": "Iran",
+      "date": "2026-06-21",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "New Zealand|Egypt|2026-06-21",
+      "team1": "New Zealand",
+      "team2": "Egypt",
+      "date": "2026-06-21",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Egypt|Iran|2026-06-26",
+      "team1": "Egypt",
+      "team2": "Iran",
+      "date": "2026-06-26",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "New Zealand|Belgium|2026-06-26",
+      "team1": "New Zealand",
+      "team2": "Belgium",
+      "date": "2026-06-26",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Spain|Cape Verde|2026-06-15",
+      "team1": "Spain",
+      "team2": "Cape Verde",
+      "date": "2026-06-15",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Saudi Arabia|Uruguay|2026-06-15",
+      "team1": "Saudi Arabia",
+      "team2": "Uruguay",
+      "date": "2026-06-15",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Spain|Saudi Arabia|2026-06-21",
+      "team1": "Spain",
+      "team2": "Saudi Arabia",
+      "date": "2026-06-21",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Uruguay|Cape Verde|2026-06-21",
+      "team1": "Uruguay",
+      "team2": "Cape Verde",
+      "date": "2026-06-21",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Cape Verde|Saudi Arabia|2026-06-26",
+      "team1": "Cape Verde",
+      "team2": "Saudi Arabia",
+      "date": "2026-06-26",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Uruguay|Spain|2026-06-26",
+      "team1": "Uruguay",
+      "team2": "Spain",
+      "date": "2026-06-26",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "France|Senegal|2026-06-16",
+      "team1": "France",
+      "team2": "Senegal",
+      "date": "2026-06-16",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Iraq|Norway|2026-06-16",
+      "team1": "Iraq",
+      "team2": "Norway",
+      "date": "2026-06-16",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "France|Iraq|2026-06-22",
+      "team1": "France",
+      "team2": "Iraq",
+      "date": "2026-06-22",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Norway|Senegal|2026-06-22",
+      "team1": "Norway",
+      "team2": "Senegal",
+      "date": "2026-06-22",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Norway|France|2026-06-26",
+      "team1": "Norway",
+      "team2": "France",
+      "date": "2026-06-26",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Senegal|Iraq|2026-06-26",
+      "team1": "Senegal",
+      "team2": "Iraq",
+      "date": "2026-06-26",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Argentina|Algeria|2026-06-16",
+      "team1": "Argentina",
+      "team2": "Algeria",
+      "date": "2026-06-16",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Austria|Jordan|2026-06-16",
+      "team1": "Austria",
+      "team2": "Jordan",
+      "date": "2026-06-16",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Argentina|Austria|2026-06-22",
+      "team1": "Argentina",
+      "team2": "Austria",
+      "date": "2026-06-22",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Jordan|Algeria|2026-06-22",
+      "team1": "Jordan",
+      "team2": "Algeria",
+      "date": "2026-06-22",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Algeria|Austria|2026-06-27",
+      "team1": "Algeria",
+      "team2": "Austria",
+      "date": "2026-06-27",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Jordan|Argentina|2026-06-27",
+      "team1": "Jordan",
+      "team2": "Argentina",
+      "date": "2026-06-27",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Portugal|DR Congo|2026-06-17",
+      "team1": "Portugal",
+      "team2": "DR Congo",
+      "date": "2026-06-17",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Uzbekistan|Colombia|2026-06-17",
+      "team1": "Uzbekistan",
+      "team2": "Colombia",
+      "date": "2026-06-17",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Portugal|Uzbekistan|2026-06-23",
+      "team1": "Portugal",
+      "team2": "Uzbekistan",
+      "date": "2026-06-23",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Colombia|DR Congo|2026-06-23",
+      "team1": "Colombia",
+      "team2": "DR Congo",
+      "date": "2026-06-23",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Colombia|Portugal|2026-06-27",
+      "team1": "Colombia",
+      "team2": "Portugal",
+      "date": "2026-06-27",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "DR Congo|Uzbekistan|2026-06-27",
+      "team1": "DR Congo",
+      "team2": "Uzbekistan",
+      "date": "2026-06-27",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "England|Croatia|2026-06-17",
+      "team1": "England",
+      "team2": "Croatia",
+      "date": "2026-06-17",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Ghana|Panama|2026-06-17",
+      "team1": "Ghana",
+      "team2": "Panama",
+      "date": "2026-06-17",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "England|Ghana|2026-06-23",
+      "team1": "England",
+      "team2": "Ghana",
+      "date": "2026-06-23",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Panama|Croatia|2026-06-23",
+      "team1": "Panama",
+      "team2": "Croatia",
+      "date": "2026-06-23",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Panama|England|2026-06-27",
+      "team1": "Panama",
+      "team2": "England",
+      "date": "2026-06-27",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "Croatia|Ghana|2026-06-27",
+      "team1": "Croatia",
+      "team2": "Ghana",
+      "date": "2026-06-27",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "2A|2B|2026-06-28",
+      "team1": "2A",
+      "team2": "2B",
+      "date": "2026-06-28",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1E|3A/B/C/D/F|2026-06-29",
+      "team1": "1E",
+      "team2": "3A/B/C/D/F",
+      "date": "2026-06-29",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1F|2C|2026-06-29",
+      "team1": "1F",
+      "team2": "2C",
+      "date": "2026-06-29",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1C|2F|2026-06-29",
+      "team1": "1C",
+      "team2": "2F",
+      "date": "2026-06-29",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1I|3C/D/F/G/H|2026-06-30",
+      "team1": "1I",
+      "team2": "3C/D/F/G/H",
+      "date": "2026-06-30",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "2E|2I|2026-06-30",
+      "team1": "2E",
+      "team2": "2I",
+      "date": "2026-06-30",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1A|3C/E/F/H/I|2026-06-30",
+      "team1": "1A",
+      "team2": "3C/E/F/H/I",
+      "date": "2026-06-30",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1L|3E/H/I/J/K|2026-07-01",
+      "team1": "1L",
+      "team2": "3E/H/I/J/K",
+      "date": "2026-07-01",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1D|3B/E/F/I/J|2026-07-01",
+      "team1": "1D",
+      "team2": "3B/E/F/I/J",
+      "date": "2026-07-01",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1G|3A/E/H/I/J|2026-07-01",
+      "team1": "1G",
+      "team2": "3A/E/H/I/J",
+      "date": "2026-07-01",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "2K|2L|2026-07-02",
+      "team1": "2K",
+      "team2": "2L",
+      "date": "2026-07-02",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1H|2J|2026-07-02",
+      "team1": "1H",
+      "team2": "2J",
+      "date": "2026-07-02",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1B|3E/F/G/I/J|2026-07-02",
+      "team1": "1B",
+      "team2": "3E/F/G/I/J",
+      "date": "2026-07-02",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1J|2H|2026-07-03",
+      "team1": "1J",
+      "team2": "2H",
+      "date": "2026-07-03",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "1K|3D/E/I/J/L|2026-07-03",
+      "team1": "1K",
+      "team2": "3D/E/I/J/L",
+      "date": "2026-07-03",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "2D|2G|2026-07-03",
+      "team1": "2D",
+      "team2": "2G",
+      "date": "2026-07-03",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W74|W77|2026-07-04",
+      "team1": "W74",
+      "team2": "W77",
+      "date": "2026-07-04",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W73|W75|2026-07-04",
+      "team1": "W73",
+      "team2": "W75",
+      "date": "2026-07-04",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W76|W78|2026-07-05",
+      "team1": "W76",
+      "team2": "W78",
+      "date": "2026-07-05",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W79|W80|2026-07-05",
+      "team1": "W79",
+      "team2": "W80",
+      "date": "2026-07-05",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W83|W84|2026-07-06",
+      "team1": "W83",
+      "team2": "W84",
+      "date": "2026-07-06",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W81|W82|2026-07-06",
+      "team1": "W81",
+      "team2": "W82",
+      "date": "2026-07-06",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W86|W88|2026-07-07",
+      "team1": "W86",
+      "team2": "W88",
+      "date": "2026-07-07",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W85|W87|2026-07-07",
+      "team1": "W85",
+      "team2": "W87",
+      "date": "2026-07-07",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W89|W90|2026-07-09",
+      "team1": "W89",
+      "team2": "W90",
+      "date": "2026-07-09",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W93|W94|2026-07-10",
+      "team1": "W93",
+      "team2": "W94",
+      "date": "2026-07-10",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W91|W92|2026-07-11",
+      "team1": "W91",
+      "team2": "W92",
+      "date": "2026-07-11",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W95|W96|2026-07-11",
+      "team1": "W95",
+      "team2": "W96",
+      "date": "2026-07-11",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W97|W98|2026-07-14",
+      "team1": "W97",
+      "team2": "W98",
+      "date": "2026-07-14",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W99|W100|2026-07-15",
+      "team1": "W99",
+      "team2": "W100",
+      "date": "2026-07-15",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "L101|L102|2026-07-18",
+      "team1": "L101",
+      "team2": "L102",
+      "date": "2026-07-18",
+      "score1": null,
+      "score2": null
+    },
+    {
+      "key": "W101|W102|2026-07-19",
+      "team1": "W101",
+      "team2": "W102",
+      "date": "2026-07-19",
+      "score1": null,
+      "score2": null
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "_comment": "Corrections manuelles par id de match (data/matches.json). Utile surtout en phase finale, quand un match se termine aux tirs au but : le score à 90' reste celui de l'API, mais on précise ici le nom de l'équipe qualifiée. Exemple : \"89\": { \"qualified\": \"France\" }"
+}

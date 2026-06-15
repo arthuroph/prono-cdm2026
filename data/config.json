@@ -1,0 +1,28 @@
+{
+  "groupe": {
+    "resultatCorrect": 3,
+    "scoreExactTotal": 7,
+    "ecartCorrectTotal": 5
+  },
+  "groupRanking": {
+    "premier": 4,
+    "deuxieme": 3,
+    "meilleur3e": 2
+  },
+  "knockout": {
+    "16es":          { "label": "16es de finale",     "qualifie": 5,  "scoreExactBonus": 4, "ecartBonus": 2 },
+    "8es":           { "label": "8es de finale",      "qualifie": 8,  "scoreExactBonus": 5, "ecartBonus": 2 },
+    "quarts":        { "label": "Quarts de finale",   "qualifie": 12, "scoreExactBonus": 6, "ecartBonus": 3 },
+    "demis":         { "label": "Demi-finales",       "qualifie": 18, "scoreExactBonus": 7, "ecartBonus": 3 },
+    "petite_finale": { "label": "Petite finale (3e)", "qualifie": 8,  "scoreExactBonus": 4, "ecartBonus": 2 },
+    "finale":        { "label": "Finale",             "qualifie": 30, "scoreExactBonus": 8, "ecartBonus": 4 }
+  },
+  "roundToPhase": {
+    "Round of 32": "16es",
+    "Round of 16": "8es",
+    "Quarter-final": "quarts",
+    "Semi-final": "demis",
+    "Match for third place": "petite_finale",
+    "Final": "finale"
+  }
+}

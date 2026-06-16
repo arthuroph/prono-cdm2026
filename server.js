@@ -47,8 +47,12 @@ app.get('/api/matches', (req, res) => {
   res.json({ matches, teams: teamsFr, config });
 });
 
-// Classement public : nom + total uniquement (pas le détail des pronos des autres)
+// Classement général : réservé à Arthur O (ARTHUR4388)
 app.get('/api/ranking', (req, res) => {
+  const code = String(req.query.code || '').toUpperCase();
+  if (code !== 'ARTHUR4388') {
+    return res.status(403).json({ error: 'Classement réservé.' });
+  }
   ensureFreshLoop();
   const { results } = computeEverything();
   res.json(results.map(r => ({ rank: r.rank, name: r.name, total: r.total })));

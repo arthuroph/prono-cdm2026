@@ -56,19 +56,12 @@ function renderLogin(errorMsg) {
       <input id="code-input" maxlength="12" placeholder="TON CODE" autocapitalize="characters" />
       <button id="login-btn">Voir mes pronos</button>
       <div class="error">${errorMsg || ''}</div>
-      <a class="ranking-link" id="show-ranking">Voir le classement général sans code</a>
     </div>
   `;
   const input = document.getElementById('code-input');
   input.focus();
   document.getElementById('login-btn').addEventListener('click', () => tryLogin(input.value.trim()));
   input.addEventListener('keydown', e => { if (e.key === 'Enter') tryLogin(input.value.trim()); });
-  document.getElementById('show-ranking').addEventListener('click', e => {
-    e.preventDefault();
-    state.code = null;
-    state.tab = 'classement';
-    renderMain();
-  });
 }
 
 async function tryLogin(code) {
@@ -89,12 +82,14 @@ async function tryLogin(code) {
 async function renderMain() {
   app.innerHTML = '<div class="loading">Chargement…</div>';
 
+  const isAdmin = state.code === 'ARTHUR4388';
+
   try {
     if (state.code && !state.data) {
       state.data = await api(`/api/me/${encodeURIComponent(state.code)}`);
     }
-    if (!state.ranking) {
-      state.ranking = await api('/api/ranking');
+    if (isAdmin && !state.ranking) {
+      state.ranking = await api(`/api/ranking?code=${encodeURIComponent(state.code)}`);
     }
   } catch (e) {
     state.code = null;
@@ -103,24 +98,25 @@ async function renderMain() {
   }
 
   const hasCode = !!state.code;
+  if (!hasCode) return renderLogin();
+  if (state.tab === 'classement' && !isAdmin) state.tab = 'pronos';
 
   app.innerHTML = `
     <header class="topbar">
       <div>
         <h1>🏆 Prono CDM 2026</h1>
-        ${hasCode ? `<div class="sub">${state.data.name}</div>` : `<div class="sub">Classement général</div>`}
+        <div class="sub">${state.data.name}</div>
       </div>
       <button class="refresh-btn" id="refresh-btn">↻ Actualiser</button>
     </header>
     <main id="main-content"></main>
     <nav class="tabs">
-      ${hasCode ? `<button data-tab="pronos" class="${state.tab === 'pronos' ? 'active' : ''}">
-        <span class="icon">📋</span>Mes pronos</button>` : ''}
-      <button data-tab="classement" class="${state.tab === 'classement' ? 'active' : ''}">
-        <span class="icon">📊</span>Classement</button>
-      ${hasCode ? `<button data-tab="logout" >
-        <span class="icon">🔑</span>Changer de code</button>` : `<button data-tab="login">
-        <span class="icon">🔑</span>Entrer un code</button>`}
+      <button data-tab="pronos" class="${state.tab === 'pronos' ? 'active' : ''}">
+        <span class="icon">📋</span>Mes pronos</button>
+      ${isAdmin ? `<button data-tab="classement" class="${state.tab === 'classement' ? 'active' : ''}">
+        <span class="icon">📊</span>Classement</button>` : ''}
+      <button data-tab="logout">
+        <span class="icon">🔑</span>Changer de code</button>
     </nav>
   `;
 
@@ -142,17 +138,13 @@ async function renderMain() {
         renderLogin();
         return;
       }
-      if (tab === 'login') {
-        renderLogin();
-        return;
-      }
       state.tab = tab;
       renderMain();
     });
   });
 
-  if (state.tab === 'pronos' && hasCode) renderPronos();
-  else renderClassement();
+  if (state.tab === 'classement' && isAdmin) renderClassement();
+  else renderPronos();
 }
 
 // ---------- "Mes pronos" tab ----------
@@ -215,7 +207,18 @@ function renderPronos() {
 }
 
 function pointsClass(points) {
-  return points > 0 ? 'points-positive' : 'points-zero';
+  if (!points || points <= 0) return 'points-zero';
+  if (points <= 3) return 'points-low';
+  if (points <= 7) return 'points-mid';
+  return 'points-high';
+}
+
+function matchStatusMeta(status) {
+  switch (status) {
+    case 'en_cours': return { cls: 'status-live', label: '🔴 En direct' };
+    case 'termine': return { cls: 'status-finished', label: '✅ Terminé' };
+    default: return { cls: 'status-upcoming', label: '⏳ À venir' };
+  }
 }
 
 function renderGroupMatch(d, teams) {
@@ -224,12 +227,13 @@ function renderGroupMatch(d, teams) {
   const played = real.score1 != null;
   const realScore = played ? `${real.score1} - ${real.score2}` : '—';
   const predScore = pred ? `${pred.score1} - ${pred.score2}` : 'non rempli';
+  const meta = matchStatusMeta(d.matchStatus);
 
   return `
-    <div class="match ${pointsClass(d.points)}">
+    <div class="match ${pointsClass(d.points)} ${meta.cls}">
       <div class="meta">
         <span>${fmtDate(d.date)}</span>
-        <span>${played ? 'Terminé / en cours' : 'À venir'}</span>
+        <span class="status-label">${meta.label}</span>
       </div>
       <div class="row">
         <div class="teams">${teamName(teams, d.team1)}<br>${teamName(teams, d.team2)}</div>
@@ -259,9 +263,10 @@ function renderGroupRanking(d, teams) {
       <div class="points" style="font-size:13px;">${ok === null ? '' : (ok ? '✅' : '—')}</div>
     </div>`;
   const realKnown = !!real;
+  const meta = matchStatusMeta(d.matchStatus);
   return `
-    <div class="match ${pointsClass(d.points)}">
-      <div class="meta"><span>Groupe ${d.group}</span><span>${realKnown ? 'Classement connu' : 'En cours'}</span></div>
+    <div class="match ${pointsClass(d.points)} ${meta.cls}">
+      <div class="meta"><span>Groupe ${d.group}</span><span class="status-label">${realKnown ? '✅ Classement connu' : '🔴 En cours'}</span></div>
       ${line('1er prédit', pred.first, real && real.first, realKnown ? d.detail.premier === true : null)}
       ${line('2e prédit', pred.second, real && real.second, realKnown ? d.detail.deuxieme === true : null)}
       ${line('3e qualifié prédit', pred.thirdQualified, real && real.third, realKnown ? d.detail.meilleur3e === true : null)}
@@ -288,11 +293,13 @@ function renderKnockoutMatch(d, teams, phase) {
   if (d.status === 'demi_equipe_1') statusBadge = '<span class="live-badge">1/2 équipe</span>';
   if (d.status === 'demi_equipe_0') statusBadge = '<span class="live-badge">0/2 équipe</span>';
 
+  const meta = matchStatusMeta(d.matchStatus);
+
   return `
-    <div class="match ${pointsClass(d.points)}">
+    <div class="match ${pointsClass(d.points)} ${meta.cls}">
       <div class="meta">
         <span>${fmtDate(d.date)} ${statusBadge}</span>
-        <span>${realKnown ? 'Réel : ' + realLabel : ''}</span>
+        <span class="status-label">${realKnown ? 'Réel : ' + realLabel : meta.label}</span>
       </div>
       <div class="row">
         <div class="teams">

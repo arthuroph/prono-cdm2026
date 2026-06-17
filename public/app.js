@@ -13,6 +13,12 @@ const PHASE_LABELS = {
 
 const PHASE_ORDER = ['groupe', 'classement_groupe', '16es', '8es', 'quarts', 'demis', 'petite_finale', 'finale'];
 
+const ICONS = {
+  pronos: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="3" cy="6" r="1" fill="currentColor" stroke="none"/><circle cx="3" cy="12" r="1" fill="currentColor" stroke="none"/><circle cx="3" cy="18" r="1" fill="currentColor" stroke="none"/></svg>`,
+  classement: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="14" width="4" height="6" rx="1"/><rect x="10" y="8" width="4" height="12" rx="1"/><rect x="18" y="4" width="4" height="16" rx="1"/></svg>`,
+  key: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></svg>`
+};
+
 let state = {
   code: localStorage.getItem('prono_code') || null,
   tab: 'pronos',
@@ -51,7 +57,7 @@ function renderLogin(errorMsg) {
   app.innerHTML = `
     <div class="login-screen">
       <div class="ball">⚽</div>
-      <h1>Prono Coupe du Monde 2026</h1>
+      <h1>Pronix</h1>
       <p>Entre ton code personnel pour voir tes pronostics et tes points en direct.</p>
       <input id="code-input" maxlength="12" placeholder="TON CODE" autocapitalize="characters" />
       <button id="login-btn">Voir mes pronos</button>
@@ -104,7 +110,7 @@ async function renderMain() {
   app.innerHTML = `
     <header class="topbar">
       <div>
-        <h1>🏆 Prono CDM 2026</h1>
+        <h1>🏆 Pronix</h1>
         <div class="sub">${state.data.name}</div>
       </div>
       <button class="refresh-btn" id="refresh-btn">↻ Actualiser</button>
@@ -112,11 +118,11 @@ async function renderMain() {
     <main id="main-content"></main>
     <nav class="tabs">
       <button data-tab="pronos" class="${state.tab === 'pronos' ? 'active' : ''}">
-        <span class="icon">📋</span>Mes pronos</button>
+        <span class="icon">${ICONS.pronos}</span>Mes pronos</button>
       ${isAdmin ? `<button data-tab="classement" class="${state.tab === 'classement' ? 'active' : ''}">
-        <span class="icon">📊</span>Classement</button>` : ''}
+        <span class="icon">${ICONS.classement}</span>Classement</button>` : ''}
       <button data-tab="logout">
-        <span class="icon">🔑</span>Changer de code</button>
+        <span class="icon">${ICONS.key}</span>Changer de code</button>
     </nav>
   `;
 
@@ -213,6 +219,14 @@ function pointsClass(points) {
   return 'points-high';
 }
 
+function resultClass(d) {
+  if (d.matchStatus !== 'termine') return '';
+  if (d.status === 'pas_de_prono') return '';
+  if (d.status === 'exact') return 'result-exact';
+  if (d.points > 0) return 'result-bon';
+  return 'result-rate';
+}
+
 function matchStatusMeta(status) {
   switch (status) {
     case 'en_cours': return { cls: 'status-live', label: '🔴 En direct' };
@@ -230,7 +244,7 @@ function renderGroupMatch(d, teams) {
   const meta = matchStatusMeta(d.matchStatus);
 
   return `
-    <div class="match ${pointsClass(d.points)} ${meta.cls}">
+    <div class="match ${pointsClass(d.points)} ${meta.cls} ${resultClass(d)}">
       <div class="meta">
         <span>${fmtDate(d.date)}</span>
         <span class="status-label">${meta.label}</span>
@@ -296,7 +310,7 @@ function renderKnockoutMatch(d, teams, phase) {
   const meta = matchStatusMeta(d.matchStatus);
 
   return `
-    <div class="match ${pointsClass(d.points)} ${meta.cls}">
+    <div class="match ${pointsClass(d.points)} ${meta.cls} ${resultClass(d)}">
       <div class="meta">
         <span>${fmtDate(d.date)} ${statusBadge}</span>
         <span class="status-label">${realKnown ? 'Réel : ' + realLabel : meta.label}</span>

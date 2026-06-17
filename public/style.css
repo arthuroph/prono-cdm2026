@@ -39,7 +39,7 @@ html, body {
   max-width: 480px;
   margin: 0 auto;
   min-height: 100vh;
-  padding-bottom: 76px;
+  padding-bottom: calc(76px + env(safe-area-inset-bottom));
 }
 
 header.topbar {
@@ -48,7 +48,8 @@ header.topbar {
   z-index: 10;
   background: rgba(6, 9, 18, 0.88);
   backdrop-filter: blur(10px);
-  padding: 14px 16px 10px;
+  padding: 10px 16px 10px;
+  padding-top: calc(10px + env(safe-area-inset-top));
   border-bottom: 1px solid var(--border);
   box-shadow: 0 1px 0 rgba(45, 226, 255, 0.12);
   display: flex;
@@ -151,25 +152,33 @@ nav.tabs {
   box-shadow: 0 -1px 0 rgba(45, 226, 255, 0.08);
   max-width: 480px;
   margin: 0 auto;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 nav.tabs button {
   flex: 1;
   background: none;
   border: none;
   color: var(--muted);
-  padding: 12px 4px 10px;
-  font-size: 12px;
+  padding: 10px 4px 8px;
+  font-size: 11px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
   border-top: 2px solid transparent;
 }
-nav.tabs button .icon { font-size: 20px; }
+nav.tabs button .icon {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav.tabs button .icon svg { width: 22px; height: 22px; }
 nav.tabs button.active {
   color: var(--neon-cyan);
   border-top-color: var(--neon-cyan);
-  text-shadow: 0 0 8px rgba(45, 226, 255, 0.6);
+  filter: drop-shadow(0 0 4px rgba(45, 226, 255, 0.5));
 }
 
 /* --- Summary card --- */
@@ -258,6 +267,22 @@ nav.tabs button.active {
 .match.status-finished .status-label {
   color: var(--neon-green);
 }
+
+/* Résultat du pronostic sur les matchs terminés */
+.match.status-finished.result-exact {
+  border-left-color: var(--neon-green);
+  border-left-width: 4px;
+  box-shadow: -2px 0 12px rgba(57, 255, 158, 0.35), inset 0 0 0 0 transparent;
+}
+.match.status-finished.result-bon {
+  border-left-color: #7fffd4;
+  border-left-width: 4px;
+}
+.match.status-finished.result-rate {
+  border-left-color: var(--neon-red);
+  border-left-width: 4px;
+}
+/* Par défaut les terminés sans résultat spécial (pas de prono) restent vert neutre */
 
 @keyframes live-pulse {
   0%, 100% { box-shadow: 0 0 0 1px rgba(255, 146, 72, 0.15), 0 0 14px rgba(255, 146, 72, 0.14); }
